@@ -1,0 +1,46 @@
+.visual {
+    height: 350px;
+    display: flex;
+    background: url('images/background-image.jpg') no-repeat center / cover;
+}
+a.discover {
+    width: 200px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-style: 16px;
+    background: #384527;
+    color: #FFFFFF;
+    line-height: 50px;
+    margin-top: 70px;
+    margin-left: 65px;
+}
+a.more {
+    width: 200px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-style: 16px;
+    border: 1px solid #384527;
+    color: #384527;
+    line-height: 50px;
+    margin-top: -50px;
+    margin-left: 280px;
+}
+article p {
+    margin: 150px 65px 16PX;
+    font-weight: 500;
+    color: #384527;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+
+}
+article h1 {
+    margin: 16px 65px 70px;
+    font-size: 68px;
+    font-weight: 700;
+    color: #384527;
+}
