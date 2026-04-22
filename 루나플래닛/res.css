@@ -1,0 +1,124 @@
+/* Tab ~1150 */
+@media ( max-width: 1150px ) {
+    body {
+        padding: 10px 40px;
+    }
+    .inner {
+        width: 100%;
+    }
+    article.solution-main {
+        display: block;
+    }
+    br.break {
+        display: none;
+    }
+    .solution h2 {
+        font-size: 48px;
+    }
+    .visual {
+        width: 100%;
+        height: 387px;
+        margin-top: 98px;
+    }
+    .solution p {
+        font-size: 18px;
+    }
+    .service .inner {
+        padding: 0 50px;
+    }
+    .service li {
+        min-width: 200px;        /* 200px보다 줄어들지 않음음 */
+    }
+    section.news {
+        padding: 0 50px;
+    }
+    section.news .post {
+        /* border: 1px solid lime; */
+        min-width: 200px;
+    }
+}
+
+/* Mobile ~700 */
+@media ( max-width: 700px ) {
+    header .gnb {
+        display: none;
+    }
+    header .burger {
+        display: block;
+    }
+    header {
+        padding: 10px 20px;
+    }
+    section.intro a {
+        padding: 14px 66px;
+    }
+    p.slogan {
+        font-size: 15px;
+    }
+    .solution h2 {
+        font-size: 41px;
+    }
+    .solution p {
+        font-size: 15px;
+    }
+    .solution p br.break {
+        display: block;
+    }
+    .visual {
+        height: 273px;
+    }
+    .service ul {
+        flex-direction: column;
+    }
+    .service li {
+        width: 100%;
+    }
+    .service h4 {
+        font-size: 23px;
+    }
+    .service p {
+        font-size: 16px;
+    }
+    .service li a {
+        font-size: 15px;
+    }
+    .service div {
+        margin-bottom: 45px;
+    }
+    section.service {
+        height: auto;
+        padding: 215px 0;
+    }
+    section.news li {
+        display: block;
+        padding: 60px 0;
+    }
+    .post + p {
+        text-align: left;
+        font-size: 17px;
+    }
+    .news h3 {
+        font-size: 34px;
+    }
+    .news h2 {
+        font-size: 45px;
+    }
+    .news .a .view-more {
+        font-size: 15px;
+    }
+    .post h2 {
+        margin-bottom: 12px;
+    }
+    section.news .post{
+        margin-bottom: 50px;
+    }
+    .post + p br {
+        display: none;
+    }
+    .service .inner {
+        padding: 0 30px;
+    }
+    section.news {
+        padding: 0 30px;
+    }
+}

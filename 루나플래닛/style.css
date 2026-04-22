@@ -1,0 +1,213 @@
+body {
+    letter-spacing: -0.38px;
+    color: #fff;
+    background: #081131;
+}
+.inner {
+    width: 1150px;
+    margin: 0 auto;
+    border: 1px solid pink;
+}
+h1{
+    font-size: clamp(2.625rem, 1.9648rem + 2.1127vw, 4.5rem);
+    line-height: 130%;
+
+}
+h2 {
+    font-size: 54px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+a {
+    color: #fff;    
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px 60px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+h1.logo a{
+    width: 119px;
+    height: 31px;
+    display: block;
+    background: url('images/logo.svg');
+    text-indent: -00000;
+}
+ul.gnb {
+    display: flex;
+}
+ul.gnb a {
+    padding: 25px 28px;
+    display: inline-block;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ul.gnb a:last-child {
+    padding-left: 0;
+}
+.burger {
+    display: none;
+}
+.burger span{
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    display: block;
+}
+.line1,
+.line {
+    margin-bottom: 5px;
+}
+.burger .line2 {
+    width: 12px;
+    position: relative;
+    left: 6px;
+}
+section.intro {
+    width: 100%;
+    height: 100vh;
+    background: url('images/stars.jpg') no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section.intro a {
+    padding: 14px 32px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.intro h1 {
+    margin-top: 25px;
+    margin-bottom: 72px;
+}
+p.slogan {
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+a.free-trial {
+    background: #fff;
+    color: #081131;
+    margin-right: 9px;
+}
+a.get-in-touch {
+    border: 1px solid #fff;
+}
+section.solution {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.solution-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.solution h2 {
+    line-height: 1.3;
+    margin: 25px 0 114px;
+}
+.solution p {
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 500;
+}
+.visual {
+    width: 413px;
+    height: 620px;
+    background: url('images/nasa.jpg') no-repeat center / cover;
+    transform: scaleX(-1);
+}
+section.service {
+    width: 100%;
+    height: 100vh;
+    background: url('images/service-bg.jpg') no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service div {
+    text-align: center;
+}
+.service h3 {
+    margin-bottom: 20px;
+}
+a.view-more {
+    font-size: 18px;
+    font-weight: 600;
+}
+.service ul {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.service li {
+    width: 375px;
+    /* border: 1px solid blue; */
+    padding: 47px 28px 56px;
+    border-radius: 27px;
+}
+.service li:nth-child(odd) {
+    background: #081131;
+}
+.service li:nth-child(even) {
+    background: #fff;
+    color: #081131;
+}
+.service li:nth-child(even) a {
+    color: #081131;
+}
+.service li p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 37px 0;
+}
+.service li a {
+    font-size: 17px;
+    font-weight: 700;
+}
+.section.news {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+section.news li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.post + p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: right;
+}
