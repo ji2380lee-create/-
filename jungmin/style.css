@@ -1,0 +1,448 @@
+body {
+	margin: 0 auto;
+
+	/* text-align: center; */
+}
+header {
+	/* border: 1px solid red; */
+}
+nav {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 16px;
+}
+h1.logo a {
+	width: 186px;
+	height: 16px;
+	display: flex;
+	background: url('images/logo.svg') no-repeat center / cover;
+	/* border: 1px solid #000; */
+	position: absolute;
+	left: 25%;
+	top: 18px;
+}
+a.getting-startted p {
+	width: 89px;
+	height: 36px;
+	font-weight: 400;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 20px;
+	background: #496DF2;
+	color: #fff;
+	margin: 0 0 10px 85px;
+	/* border: 1px solid #000; */
+	margin-top: 10px;
+	/* position: absolute; */
+	/* left: 100%;
+	bottom: 10%; */
+}
+ul.gnb {
+	display: flex;
+	/* border: 1px solid #000; */
+	margin: 18px 0 0 520px;
+	gap: 88px;
+	
+}
+ul.gnb a {
+	/* padding: 9px 88px; */
+	display: block;
+	font-weight: 500;
+}
+section.main-visual video {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+div.line-banner {
+	line-height: 45px;
+	height: 48px;
+	background: #496DF2;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+div.intro-content video {
+	position: relative;
+	height: 1140px;
+}
+section.main-visual img {
+	position: absolute;
+	width: 359px;
+	height: 216px;
+	background: url('images/type.svg') no-repeat center / cover;
+	left: 40%;
+	top: 50%;
+	
+}
+div.intro-content h4 {
+	font-weight: 700;
+	position: absolute;
+	left: 36%;
+	top: 73%;
+	padding: 43px;
+	color: #fff;
+}
+div.intro-content a {
+	position: absolute;
+	left: 43%;
+	top: 80.5%;
+	margin: 53.59px;
+	width: 144px;
+	height: 51px;
+	font-size: 18px;
+	background: #496DF2;
+	color: #FFFFFF;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+	font-style: 16px;
+	line-height: 50px;
+	border-radius: 7px;
+}
+/* <section class="intro"> */
+.intro {
+	background: #fff;
+	padding: 20px;
+	/* border: 1px solid #000; */
+	border-radius: 8px;
+}
+.intro-content .slogan {
+	margin: 187px 0 0 406px;
+}
+.intro-content .slogan h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 0 35px 0;
+}
+.intro-content .slogan p {
+	font-size: 18px;
+	color: #878E95;
+	line-height: 1.6;
+}
+.pocket-user {
+	width: 500px;
+	height: 274px;
+	list-style: none;
+	padding: 0;
+	margin: -245px 0 0 1000px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+.pocket-user li {
+	padding: 15px;
+	border-radius: 8px;
+	color: #878E95;
+}
+.pocket-user li h5 {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.pocket-user li .point {
+	font-size: 48px;
+	font-weight: 700;
+	font-weight: bold;
+	color: #496DF2;
+}
+.pocket-user li small {
+	font-size: 18px;
+	font-weight: 400;
+	color: #496DF2;
+}
+
+/* <section class="coaching"> */
+.coaching-content a {
+	width: 320px;
+	height: 639px;
+	display: block;
+	margin: 280px 0 0 519px;
+	background: url('images/online-coaching.png') no-repeat center / cover;
+}
+.slogan h1 {
+	margin: -460px 0 0 969px;
+	font-weight: 700;
+}
+.coaching .slogan p {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 27px 0 0 969px;
+	color: #878E95;
+}
+.go-coaching p {
+	width: 144px;
+	height: 53px;
+	background: #F1F3F5;
+	font-weight: 700;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	font-style: 16px;
+	line-height: 50px;
+	margin-top: 16px;
+	margin-left: 24px;
+	margin: 63px 0 450px 969px;
+	border-radius: 10px;
+}
+/* <section class="solution"> */
+section.solution {
+	height: 1199px;
+	display: flex;
+	position: relative;
+	background: url('images/background.png') no-repeat center / cover;
+}
+.solution-content h1 {
+	position: absolute;
+	bottom: 50%;
+	left: -25%;
+	font-weight: 700;
+	/* border: 1px solid blue; */
+}
+.solution-content p {
+	position: absolute;
+	left: 26%;
+	bottom: 43%;
+	font-size: 400px;
+	font-size: 18px;
+	color: #878E95;
+}
+.solution-capture  {
+	position: absolute;
+	left: 60%;
+	top: 26%;
+	width: 260px;
+	height: 519px;
+	display: flex;
+	background: url('images/frame.png') no-repeat center / cover;
+	/* border: 1px solid red; */
+}
+.solution-capture .ean {
+	position: absolute;
+	left: 73%;
+	top: 29%;
+	width: 238px;
+	height: 384px;
+	display: flex;
+	background: url('images/story.png') no-repeat center / cover;
+	/* border: 1px solid pink; */
+}
+/* <section class="repeat"> */
+section.repeat {
+	margin: 322px 0 322px 0;
+	gap: 10px
+}
+.repeat-content a {
+	width: 458px;
+	height: 555px;
+	display: flex;
+	background: url('images/lesson-capture.png') no-repeat center / cover;
+	margin: 0 0 95px 417.5px;
+}
+.repeat-content .slogan h1 {
+	font-weight: 700;
+	color: #4A5056;
+}
+.repeat-content .slogan p {
+	color: #878E95;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 27px 0 0 970px;
+}
+/* <section class="review"> */
+.review {
+	background: #F8F9FA;
+}
+.review li a {
+	width: 87px;
+	height: 18px;
+	display: flex;
+	background: url('images/stars.svg') no-repeat center / cover;
+}
+.review div h3 {
+	text-align: center;
+	padding: 120px 0 66px 0;
+}
+.review ul {
+	display: flex;
+	justify-content: center;
+	gap: 31px;
+}
+.review li {
+	/* border: 1px solid #000; */
+	background: #fff;
+	display: block;
+	color: #4A5056;
+	width: 325px;
+	height: 389px;
+	margin: 0 0 120px 0;
+}
+.review li .review {
+	background: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 26px 25px 0 25px;
+	line-height: 22.5px;	
+}
+.review li .lesson-user {
+	/* border: 1px solid red; */
+	width: 268px;
+	height: 69px;
+	background: #F1F3F5;
+	color: #878E95;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px 0 0 25px;
+	line-height: 200%;
+}
+
+.review .point {
+	text-align: center;
+	color: #496DF2;
+	margin: 25px 0 7px 0;
+	font-weight: 700;
+}
+.review .user-review a {
+	margin: 0 0 0 115px;
+}
+.review li div .lesson-user {
+	margin: 87px auto;
+}
+.review li small .lesson-user {
+	margin: 43px auto;
+}
+/* <section class="pro-golper"> */
+.pro-golper {
+	height: 912px;
+}
+.pro-content h3 {
+	text-align: center;
+	margin: 111px 0 0 0;
+	font-weight: 700;
+}
+.pro-list {
+	text-align: center;
+	padding: 20px;
+	margin: 111px 0 67px 0;
+}
+.pro-content li h5 {
+	width: 242px;
+	height: 360px;
+	position: relative;
+	/* border: 3px solid #000; */
+}
+.pro-content li h2 {
+	width: 242px;
+	height: 200px;
+	position: absolute;
+	/* border: 3px solid blue; */
+	z-index: 10;
+	margin: 160px auto;
+}
+.pro-content li h1 {
+	width: 40px;
+	height: 160;
+	position: absolute;
+	z-index: 10;
+	margin: 0 0 0 202px;
+}
+.pro-content h4 {
+	color:#fff;
+	position: absolute;
+	z-index: 20;
+	margin: 280px 0 0 60px;
+}
+.pro-content .pro {
+	position: absolute;
+	color: #DDE2E7;
+	z-index: 20;
+	margin: 320px 0 0 -67px;
+	font-weight: 400;
+	font-size: 13px;
+	
+}
+.pro-list {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	list-style: none;
+}
+.pro-list li {
+
+	background: #fff;
+	border-radius: 10px;
+}
+.go-pro {
+	width: 221px;
+	height: 53px;
+	font-size: 18px;
+	font-weight: 700;
+	background: #F1F3F5;
+	color: #4A5056;
+	border-radius: 5px;
+	/* border: 1px solid #000; */
+	margin: 172px 0 0 850px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 9px;
+}
+/* <div class="footer-inner"> */
+footer {
+	height: 527px;
+	background: #F8F9FA;
+	margin: 111px 0 0 0;
+}
+.footer-inner .sns-link {
+	margin: 107px 0 20px 442px;
+	/* border: 1px solid #000; */
+	display: flex;
+	gap: 20px;
+}
+.footer-inner .policy {
+	/* border: 1px solid #000; */
+	margin: 0 0 100px 442px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #878E95;
+}
+.pocket-lesson-info {
+	/* border: 1px solid #000; */
+	margin: 0 0 0 442px;
+	display: flex;
+	color: #878E95;
+}
+.pocket-lesson-info li h5 {
+	margin: 100px 0 25px 140px;	
+}
+.pocket-lesson-info li a {
+	display: flex;
+	margin: 0 0 25px 140px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #878E95;
+}
+.pocket-lesson-info div h5 {
+	display: flex;
+	margin: 100px 0 25px -2px;
+}

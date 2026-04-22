@@ -1,0 +1,121 @@
+body {
+    letter-spacing: -0.32px;
+}
+h1 {
+    font-size: 56px;
+}
+h2 {
+    font-size: 15px;
+}
+.dn {
+    display: none;
+}
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid rgba(255,255,255, .15);
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    letter-spacing: -0.5px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: unset;
+}
+header button.menu {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 0;
+    border-radius: 0;
+    color: rgba(255, 255, 255, .8);
+    padding: 20px 0;
+}
+header button.on {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+}
+.project-slider {
+    width: 100%;
+    height: 100vh;
+}
+section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+
+}
+.swiper-slide.container {
+    width: 1350px;
+    height: 620px;
+    border-radius: 45px;
+    padding: 45px;
+    backdrop-filter: blur(14px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, .1), inset 2px 2px 2px rgba(255, 255, 2255, .1);
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.thumbnail {
+    width: 825px;
+    height: 546px;
+    overflow: hidden;
+    border-radius: 35px;
+}
+.thumbnail img {
+    width: 100%;
+}
+.content {
+    width: 400px;
+    height: 397px;
+    padding-bottom: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+.en-title {
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+}
+li.go-site {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+li.go-site p {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
+li.work {
+    margin-top: 30px;
+    display: flex;
+}
+li.work > ul {
+    width: 50%;
+}
+li.by {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 11px;
+}
+#cover {
+    width: 100%;
+    aspect-ratio: 1920/1080;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
